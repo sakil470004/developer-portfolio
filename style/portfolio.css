@@ -26,7 +26,7 @@ main {
 }
 
 section {
-    margin: 0 200px;
+    margin: 0 230px;
     margin-top: 130px;
 }
 
@@ -114,21 +114,60 @@ nav ul li {
     color: #757575;
     margin: 30px 0px;
 }
-.about-info{
+
+.about-info {
     display: flex;
     justify-content: space-around;
 }
-.about-card-tittle{
+
+.about-card-tittle {
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 30px;
-    color: #757575;   
+    color: #757575;
 }
-.about-card-description{
+
+.about-card-description {
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
-    line-height: 30px;    
+    line-height: 30px;
     color: #474747;
+}
+
+/* what i do */
+.whatIDo>h1 {
+    text-align: center;
+}
+
+.whatIDo>p {
+    padding: 40px 150px;
+}
+
+.skill-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.skill-tittle {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #181818;
+    margin: 25px 0px;
+}
+
+.skill-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
 }
